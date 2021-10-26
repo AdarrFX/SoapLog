@@ -24,7 +24,7 @@
   border: 2px solid red;
   width: 90%;
   margin: auto;
-  height: 600px;
+  min-height: 100vh;
 }
 
 .logentry-wrapper {

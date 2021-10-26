@@ -7,11 +7,11 @@ export const LogEntry = (props) => {
     return (
         <div className="logentry-wrapper">
             <div className="logentry-photo-container">
-                <img src="http://placekitten.com/300/300"></img>
+                <img src={ props.soapImageLink }></img>
             </div>
             <div className="logentry-info-container">
-                <h1>Soap Title</h1>
-                <p>A description of the soap would go here.</p>
+                <h1>Soap Title: { props.soapTitle }</h1>
+                <p>Soap description goes here: { props.soapDescription }</p>
             </div>
         </div>
     )
